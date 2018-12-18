@@ -1,0 +1,1054 @@
+fullHead {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+
+
+#header {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-right: 0;
+    width:100%;
+}
+
+.head {
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 2px 5px;
+    width:100%;
+    background-color: black;
+    
+}
+
+
+
+.logo {
+    height: 60px;
+    width:70px;
+    
+   
+}
+
+#home {
+    font-size: 30px;
+    color:#DE89E5;
+}
+
+
+
+h1 {
+    font-family:'Fredoka One', cursive;
+    font-size: 40px;
+    color:#DE89E5;
+    margin-bottom: 0;
+    
+}
+
+.ssb {
+    align-content: center;
+} 
+
+body {
+    background-color:#89E0DC;
+    background-attachment: fixed;
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.image1 {
+    background-image: url(assets/smash1.jpg);
+    background-size: cover;
+    height:200px;
+    width:100%;
+    margin-top: 10%;
+    
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+
+.card1 {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    
+    
+   
+}
+
+.text1 {
+    text-align: justify;
+     border: 1px solid black;
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    background: black;
+    color:#DE89E5;
+   
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    font-family:'Fredoka One', cursive;
+    
+}
+
+.nav-size {
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    height: 10%;
+    
+    background:black;
+    padding-top: 3%;
+    margin-right: -2px;
+    margin-bottom: -1px;
+    
+    
+}
+
+.isize {
+    color:#DE89E5;
+    font-size: 25px;
+    
+}
+
+.card2 {
+    display:flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 20%;
+    
+}
+
+.text2 {
+    
+     border: 1px solid black;
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 25%;
+     background: black;
+    color:#DE89E5;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+     font-family:'Fredoka One', cursive;
+    
+}
+
+.image2 {
+    background-image: url(assets/smash8.jpg);
+    background-size: cover;
+    height:200px;
+    width:100%;
+    margin-top: 10%;
+    border-top-left-radius:7px;
+    border-top-right-radius: 7px;
+    
+    
+}
+
+.text3 {
+    text-align: justify;
+     border: 1px solid #E8E8E8;
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    margin-bottom: 20%;
+    align-items: center;
+    margin-bottom: 20%;
+     display: flex;
+    align-self: center;
+    justify-content: center;
+  
+    align-content: center;
+    
+}
+
+.image3 {
+    background-image: url(assets/smash5.jpg);
+    background-size: cover;
+    height:200px;
+    width:100%;
+    margin-top: 10%;
+    
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.picture1 {
+    border-radius: 50%;
+    background-image: url(assets/lorenzo.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+     border: 3px solid #DE89E5;
+    
+}
+
+.card4 {
+    height:100%;
+    width:100%;
+     border: 1px solid #E8E8E8;
+
+    
+}
+
+.duel {
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture2 {
+      border-radius: 50%;
+    background-image: url(assets/segura.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+     border: 3px solid #DE89E5;
+}
+
+
+.crown {
+    font-size:50px;
+    color: #DE89E5;
+}
+.character1 {
+    border-radius: 50%;
+    background-image: url(assets/characters/luigi.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+     border: 3px solid #DE89E5;
+}
+
+.characters {
+     height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+   margin-bottom:20%;
+    margin-top:-5%;
+}
+
+.character2 {
+    border-radius: 50%;
+    background-image: url(assets/characters/mario.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+     border: 3px solid #DE89E5;
+   
+}
+
+.date {
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family:'Fredoka One', cursive;
+    font-size: 30px;
+    text-shadow: 2px 2px #DE89E5;
+    
+}
+
+.vs {
+    font-family:'Fredoka One', cursive;
+    font-size: 25px;
+      
+    text-shadow: 2px 2px #DE89E5;
+}
+/*
+second card for matches
+*/
+
+.card5 {
+    height:100%;
+    width:100%;
+     border: 1px solid #E8E8E8;
+
+    
+}
+
+.duel2 {
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture3 {
+    border-radius: 50%;
+    background-image: url(assets/bruno.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.picture4 {
+      border-radius: 50%;
+    background-image: url(assets/Captura%20de%20pantalla%202018-12-01%20a%20las%2011.25.33.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+}
+
+
+.character3 {
+    border-radius: 50%;
+    background-image: url(assets/characters/yoshi.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+.character4 {
+    border-radius: 50%;
+    background-image: url(assets/characters/kirby.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+3rd card for matches
+*/
+
+.card6 {
+    height:100%;
+    width:100%;
+     border: 1px solid #E8E8E8;
+
+    
+}
+
+.duel3 {
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture5 {
+    border-radius: 50%;
+    background-image: url(assets/ruaix.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.picture6 {
+      border-radius: 50%;
+    background-image: url(assets/palet.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+}
+
+
+.character5 {
+    border-radius: 50%;
+    background-image: url(assets/characters/falcon.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+.character6 {
+    border-radius: 50%;
+    background-image: url(assets/characters/pika.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+4rd card for matches
+*/
+
+.card7 {
+    height:100%;
+    width:100%;
+     border: 1px solid #E8E8E8;
+
+    
+}
+
+.duel4 {
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture7 {
+    border-radius: 50%;
+    background-image: url(assets/blai.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.picture8 {
+      border-radius: 50%;
+    background-image: url(assets/josh.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+}
+
+
+.character7 {
+    border-radius: 50%;
+    background-image: url(assets/characters/fox.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+.character8 {
+    border-radius: 50%;
+    background-image: url(assets/characters/dk.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+/*
+5th card for matches
+*/
+
+.card8 {
+    height:100%;
+    width:100%;
+     border: 1px solid #E8E8E8;
+
+    
+}
+
+.duel5 {
+    height:100%;
+    width:100%;
+    margin-top:10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.picture9 {
+    border-radius: 50%;
+    background-image: url(assets/clara.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.picture10 {
+      border-radius: 50%;
+    background-image: url(assets/pep.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+}
+
+
+.character9 {
+    border-radius: 50%;
+    background-image: url(assets/characters/link.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+.character10 {
+    border-radius: 50%;
+    background-image: url(assets/characters/samus.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+.characters10 {
+     height:100%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 15%;
+   
+}
+
+/*
+Player list
+*/
+
+.border {
+     border: 1px solid #E8E8E8;
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    margin-bottom: 10%;
+    
+}
+
+.border1 {
+    
+  
+    padding: 10px;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    display:flex;
+    background-color:black;
+    color:#DE89E5;
+    font-size:30px;
+    font-family:'Fredoka One', cursive;
+    border-radius:7px;
+    font-weight: bold;
+}
+
+.border10 {
+      border: 1px solid #E8E8E8;
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    
+}
+
+/*
+Player1
+*/
+
+.ppicture1{
+    border-radius: 50%;
+  
+    background-size: cover;
+    height:120px;
+    width:120px;
+     border: 3px solid #DE89E5;
+    margin-top: 10%;
+    
+}
+
+.pcharacter1{
+    border-radius: 50%;
+    background-size: cover;
+    height:60px;
+    width:60px;
+   border: 3px solid #DE89E5;
+    
+    
+}
+
+.proborder {
+    display:flex;
+    flex-direction: column;
+}
+
+/*
+Player2
+*/
+
+.ppicture2{
+    border-radius: 50%;
+   
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter2{
+    border-radius: 50%;
+   
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+/*
+Player3
+*/
+
+.ppicture3{
+    border-radius: 50%;
+    background-image: url(assets/bruno.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter3{
+    border-radius: 50%;
+    background-image: url(assets/characters/yoshi.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+
+/*
+Player4
+*/
+
+.ppicture4{
+    border-radius: 50%;
+    background-image: url(assets/Captura%20de%20pantalla%202018-12-01%20a%20las%2011.25.33.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter4{
+    border-radius: 50%;
+    background-image: url(assets/characters/kirby.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+Player5
+*/
+
+.ppicture5{
+    border-radius: 50%;
+    background-image: url(assets/clara.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter5{
+    border-radius: 50%;
+    background-image: url(assets/characters/link.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+
+
+/*
+Player6
+*/
+
+.ppicture6{
+    border-radius: 50%;
+    background-image: url(assets/palet.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter6{
+    border-radius: 50%;
+    background-image: url(assets/characters/pika.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+Player7
+*/
+
+.ppicture7{
+    border-radius: 50%;
+    background-image: url(assets/ruaix.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter7{
+    border-radius: 50%;
+    background-image: url(assets/characters/falcon.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+Player8
+*/
+
+.ppicture8{
+    border-radius: 50%;
+    background-image: url(assets/josh.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter8{
+    border-radius: 50%;
+    background-image: url(assets/characters/dk.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+Player9
+*/
+
+.ppicture9{
+    border-radius: 50%;
+    background-image: url(assets/blai.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter9{
+    border-radius: 50%;
+    background-image: url(assets/characters/fox.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+}
+
+/*
+Player10
+*/
+
+.ppicture10{
+    border-radius: 50%;
+    background-image: url(assets/pep.png);
+    background-size: cover;
+    height:120px;
+    width:120px;
+    
+}
+
+.pcharacter10{
+    border-radius: 50%;
+    background-image: url(assets/characters/samus.png);
+    background-size: cover;
+    height:60px;
+    width:60px;
+    
+    
+}
+
+/*
+AllPlayers
+*/
+
+.stanBorder {
+    display:flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+     
+    box-shadow: 0px 1px 1px;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius:7px;
+    background:black;
+    justify-content: flex-start;
+    margin-top: 20%;
+}
+
+.roundNumber {
+    margin-right: 10%;
+  border: 5px solid #DE89E5;
+    
+    padding:5px;
+    border-radius:100%;
+    font-size:40px;
+    width:30%;
+    height:30%;
+    display:flex;
+    justify-content: center;
+    color:#DE89E5;
+    background-color: black;
+    font-family:'Fredoka One', cursive;
+    text-shadow: 3px 3px #89E0DC;
+    box-shadow: 3px 3px #89E0DC;
+}
+
+.sinfo1{
+    font-size:25px;
+     font-family:'Fredoka One', cursive;
+    color:#DE89E5;
+/*     text-shadow: 2px 2px #89E0DC;*/
+}
+
+.sinfo2{
+    font-size:25px;
+     font-family:'Fredoka One', cursive;
+    color:#DE89E5;
+/*     text-shadow: 2px 2px #89E0DC;*/
+}
+
+.ptext1{
+  display:flex;
+    align-content: center;
+    align-items:center;
+    
+    
+}
+
+.part1 {
+    display:flex;
+    
+}
+
+/*
+Login
+*/
+.titlel {
+ 
+    margin-top:10%;
+    
+}
+
+
+.formborder {
+    margin-top: 10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+     border: 1px solid #E8E8E8;
+    padding:10px;
+    box-shadow: 0px 1px 1px;
+   
+}
+
+/*
+single profile landscape
+*/
+
+@media only screen and (orientation:landscape) {
+    .fullprofile {
+        display:flex;
+        flex-direction: row;
+    }
+}
+  
+
+/*
+Chat
+*/
+
+/*
+Input
+*/
+
+.input {
+    width: 100%;
+    height: 10%;
+}
+
+/*
+Login
+*/
+
+/*
+send
+*/
+
+
+.chat {
+    display:flex;
+    height: 100%;
+}
+
+.send {
+    background:black;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    width:20%;
+    justify-content:center;
+    
+    
+}
+
+.input {
+    width 50%;
+    height: 100%;
+    display:flex;
+    padding:5px;
+    border-radius: 7px;
+    font-size: 25px;
+    background: #89E0DC;
+    
+    
+}
+
+.messaging {
+    width: 100%;
+    height: 10%;
+    display:flex;
+    justify-content: space-between;
+   align-content: center;
+    align-items:center;
+    background: black;
+}
+
+.planes {
+    font-size: 30px;
+    color:#DE89E5;
+}
+
+.inputs {
+    width:85%;
+    
+}
+
+.box {
+    overflow-y:scroll;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+.box div {
+    margin top:10%;
+    margin-bottom:5%;
+     max-width: content;
+    background: #DE89E5;
+    border-radius: 7px;
+    overflow-wrap:break-word;
+    
+    overflow-y:scroll;
+    padding:5%;
+    font-family:'Fredoka One', cursive;
+}
+
+
+.facename {
+    display:flex;
+    align-content: center;
+    align-items:center;
+    justify-content: space-between;
+    font-size:25px;
+     font-family:'Fredoka One', cursive;
+    color:black;
+     text-shadow: 2px 2px #DE89E5;
+}
+
+.nick {
+    font-style: italic;
+    font-size: 25px;
+}
+
+.mentalage {
+    display:flex;
+    font-size:20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.protext2 div {
+    margin-bottom: 5%;
+}
+
+.pinfo {
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+
+.guide {
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    text-shadow: 3px 3px #DE89E5;
+    margin:10%;
+}
+
+.youtube {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+   background-color:black;
+    padding:5%;
+    border-radius:7px;
+    box-shadow: 10px 10px #DE89E5;
+    
+}
+
+a {
+    padding:0;
+}
+
+#posts {
+   scroll-behavior: smooth;
+   height: 85vh;
+   overflow-y: scroll;
+}
+
+.guest {
+    color:lightblue;
+    display:flex;
+    justify-content: flex-end;
+    background-color:black;
+    
+    
+}

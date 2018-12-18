@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+   <link rel="apple-touch-icon" href="/assets/ssblogo3.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/assets/ssblogo3.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/assets/ssblogo3.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/assets/ssblogo3.png">
+
+   
+    <title>SSB Home League</title>
+</head>
+
+<body>
+
+
+    <div id="app">
+
+        <div class="nav fixed-bottom">
+
+            <nav class="nav nav-size">
+                <a class="nav-link" href="#" v-on:click="newTag('matches')"><i class="fas fa-gamepad isize"></i></a>
+                <a class="nav-link" href="#" v-on:click="newTag('players')"><i class="fas fa-user isize"></i></a>
+                <a class="nav-link" href="#" v-on:click="newTag('standings')"><i class="fas fa-trophy isize"></i></a>
+                <a class="nav-link" href="#"><i class="fas fa-comments isize" id="login"></i></a>
+                <a class="nav-link" href="#" v-on:click="newTag('content')"><i class="fab fa-youtube isize"></i></a>
+
+            </nav>
+
+        </div>
+
+        <div class="fullHead">
+            <div class="head">
+                <div>
+                    <a class="nav-link" href="#" v-on:click="newTag('index')"><i class="fas fa-home" id="home"></i></a>
+                </div>
+                <div class="ssb">
+                    <h1> SSB </h1>
+
+                </div>
+                <div>
+                    <image class="logo" src="assets/ssblogo3.png"></image>
+                </div>
+            </div>
+        </div>
+
+        <div v-if="target === 'index'" id="index">
+            <div class="card1, container">
+
+                <div class="image1">
+
+                </div>
+
+                <div class="text1">
+                    <p class="par1">
+                         The Super Sad Boys League has begun.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+
+
+            <a class="nav-link" href="#" v-on:click="newTag('matches')"><div class="card2, container">
+
+                <div class="image2">
+
+                </div>
+
+                <div class="text2">
+                    <p class="par1">
+                        NEXT MATCHES
+                    </p>
+                </div>
+
+
+
+                </div></a>
+
+
+        </div>
+
+        <div v-if="target === 'login'" id="login">
+            <div class="titlel, container">
+                <h2>Sign in</h2>
+            </div>
+            <div class="login, container">
+                <div class="formborder">
+
+                    <form>
+
+                        <div class="form-group">
+                            <label for="inputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputName">Full Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="InputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div v-if="target === 'matches'" id="matches">
+            <div class="card4, container">
+                <div class="date">
+                    <span>WED. 26/1</span>
+                </div>
+                <div class="duel">
+                    <div class="picture1">
+
+                    </div>
+                    <div class="vs">
+                        <span>VS</span>
+                    </div>
+                    <div class="picture2">
+
+                    </div>
+
+                </div>
+                <div class="characters">
+                    <div class="character1">
+
+                    </div>
+                    <div class="character2">
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <div class="card5, container">
+                <div class="date">
+                    <span>THU. 27/1</span>
+                </div>
+                <div class="duel2">
+                    <div class="picture3">
+
+                    </div>
+                    <div class="vs">
+                        <span>VS</span>
+                    </div>
+                    <div class="picture4">
+
+                    </div>
+
+                </div>
+                <div class="characters">
+                    <div class="character3">
+
+                    </div>
+                    <div class="character4">
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+            <div class="card5, container">
+                <div class="date">
+                    <span>THU. 27/1</span>
+                </div>
+                <div class="duel3">
+                    <div class="picture5">
+
+                    </div>
+                    <div class="vs">
+                        <span>VS</span>
+                    </div>
+                    <div class="picture6">
+
+                    </div>
+
+                </div>
+                <div class="characters">
+                    <div class="character5">
+
+                    </div>
+                    <div class="character6">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <div class="card6, container">
+                <div class="date">
+                    <span>FRI. 29/1</span>
+                </div>
+                <div class="duel4">
+                    <div class="picture7">
+
+                    </div>
+                    <div class="vs">
+                        <span>VS</span>
+                    </div>
+                    <div class="picture8">
+
+                    </div>
+
+                </div>
+                <div class="characters">
+                    <div class="character7">
+
+                    </div>
+                    <div class="character8">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="card7, container">
+                <div class="date">
+                    <span>SAT. 30/1</span>
+                </div>
+                <div class="duel5">
+                    <div class="picture9">
+
+                    </div>
+                    <div class="vs">
+                        <span>VS</span>
+                    </div>
+                    <div class="picture10">
+
+                    </div>
+
+                </div>
+                <div class="characters10">
+                    <div class="character9">
+
+                    </div>
+                    <div class="character10">
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div v-show="target === 'players'" id="players">
+            <div class="pcard1, container">
+                <div class="border1">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile1')">
+                        <div class="ppicture1"></div>
+                    </a>
+                    <div class="pcharacter1">
+
+                    </div>
+
+
+                    <div class="ptext1">
+                        <span id="pinfo1">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="pcard2, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile2')">
+                        <div class="ppicture2"></div>
+                    </a>
+                    <div class="pcharacter2">
+
+                    </div>
+
+
+                    <div class="ptext2">
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pcard3, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile3')">
+                        <div class="ppicture3"></div>
+                    </a>
+                    <div class="pcharacter3">
+
+                    </div>
+
+
+                    <div class="ptext3">
+                        <span id="pinfo3">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pcard4, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile4')">
+                        <div class="ppicture4"></div>
+                    </a>
+                    <div class="pcharacter4">
+
+                    </div>
+
+
+                    <div class="ptext4">
+                        <span id="pinfo4">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+            <div class="pcard5, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile5')">
+                        <div class="ppicture5"></div>
+                    </a>
+                    <div class="pcharacter5">
+
+                    </div>
+
+
+                    <div class="ptext5">
+                        <span id="pinfo5">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="pcard6, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile6')">
+                        <div class="ppicture6"></div>
+                    </a>
+                    <div class="pcharacter6">
+
+                    </div>
+
+
+                    <div class="ptext6">
+                        <span id="pinfo6">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pcard7, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile7')">
+                        <div class="ppicture7"></div>
+                    </a>
+                    <div class="pcharacter7">
+
+                    </div>
+
+
+                    <div class="ptext7">
+                        <span id="pinfo7">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pcard8, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile8')">
+                        <div class="ppicture8"></div>
+                    </a>
+                    <div class="pcharacter8">
+
+                    </div>
+
+
+                    <div class="ptext8">
+                        <span id="pinfo8">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pcard9, container">
+                <div class="border">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile9')">
+                        <div class="ppicture9"></div>
+                    </a>
+                    <div class="pcharacter9">
+
+                    </div>
+
+
+                    <div class="ptext9">
+                        <span id="pinfo9">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="pcard10, container">
+                <div class="border10">
+                    <a class="nav-link" href="#" v-on:click="newTag('profile10')">
+                        <div class="ppicture10"></div>
+                    </a>
+                    <div class="pcharacter10">
+
+                    </div>
+
+
+                    <div class="ptext10">
+                        <span id="pinfo10">
+
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div v-if="target === 'standings'" id="standings">
+            <span>GOD TIER</span>
+
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">1</span>
+                    </div>
+
+                    <div class="ppicture1">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">2</span>
+                    </div>
+                    <div class="ppicture2">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">3</span>
+                    </div>
+                    <div class="ppicture3">
+
+                    </div>
+
+
+
+                    <div class="ptext3">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">4</span>
+                    </div>
+                    <div class="ppicture4">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">5</span>
+                    </div>
+                    <div class="ppicture5">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">6</span>
+                    </div>
+                    <div class="ppicture6">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">7</span>
+                    </div>
+                    <div class="ppicture7">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">8</span>
+                    </div>
+                    <div class="ppicture8">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="stan1, container">
+                <div class="stanBorder">
+                    <div class="roundNumber">
+                        <span class="number">9</span>
+                    </div>
+                    <div class="ppicture9">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stan1, container">
+
+                <div class="stanBorder">
+
+                    <div class="roundNumber">
+                        <span class="number">10</span>
+                    </div>
+                    <div class="ppicture10">
+
+                    </div>
+
+
+
+                    <div class="ptext">
+                        <span id="pinfo1">
+                            Points
+                        </span>
+                        <span id="pinfo2">
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div v-if="target === 'profile1'" class="profile1">
+            <div class="container">
+                <div class="fullprofile">
+                    <div class="profile">
+                       <div class="facename">
+                        <div class="ppicture1" :style="{backgroundImage: 'url(' + desiredgamer.picture + ')'}">
+
+                        </div>
+                        <div class="protext1">
+                                    <span id="pinfo1">
+                                        {{desiredgamer.name}}
+                                    </span>
+
+                                </div>
+                                </div>
+                        <div class="pcharacter1" :style="{backgroundImage: 'url(' + desiredgamer.characterpicture + ')'}">
+
+                        </div>
+                    </div>
+                    <div class="pcard1">
+                        <div class="border1">
+                            <div class="proborder">
+                               
+
+                                <div class="protext2">
+                                    <h4 id="pinfo2" class="nick">
+                                        {{desiredgamer.nick}}
+                                    </h4>
+                                </div>
+                                <div class="protext2">
+                                   <div class="mentalage">
+                                    
+                                    <span id="pinfo2">
+                                      Mental Age: {{desiredgamer.mentalage}}
+                                    </span>
+                                    </div>
+                                    <div class="protext2">
+                                        <h4 id="pinfo2">
+                                            Facts: {{desiredgamer.facts}}
+                                        </h4>
+                                        <div class="protext2">
+                                            <h4 id="pinfo2">
+                                                Points: {{desiredgamer.points}}
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div v-if="target == 'content'" id="content">
+
+            <div class="youtube">
+                <h4 class="guide">
+                    Character Guides
+                </h4>
+                <div class="video">
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/zs3ir7VWdik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div v-show="target == 'chat'" id="chat" class="chat">
+            <div class="chat">
+                <div id="posts" class="box container">
+                    Loading posts...
+                </div>
+                <div class="messaging fixed-bottom">
+                    <div class="inputs">
+                        <input id="textInput" class="input" type="text" placeholder="Your message...">
+                    </div>
+                    <div class="send" id="create-post">
+                       <i class="fas fa-plane-departure planes"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <script src="info.js"></script>
+    <!-- Optional JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="template.js"></script>
+
+    <script src="app.js"></script>
+
+    <script defer src="/__/firebase/6.1.1/firebase-app.js"></script>
+    <script defer src="/__/firebase/6.1.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.1.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/6.1.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/6.1.1/firebase-storage.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
+    
+<script src="https://www.gstatic.com/firebasejs/5.7.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBHzK1HyfQsWQ3ywLUeJU1R2v77f5PzpUE",
+    authDomain: "ssbleague-1b9b1.firebaseapp.com",
+    databaseURL: "https://ssbleague-1b9b1.firebaseio.com",
+    projectId: "ssbleague-1b9b1",
+    storageBucket: "ssbleague-1b9b1.appspot.com",
+    messagingSenderId: "630828454701"
+  };
+  firebase.initializeApp(config);
+</script>
+    <script src="chat.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- update the version number as needed -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    
+</body>
+
+</html>
